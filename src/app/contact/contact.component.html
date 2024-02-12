@@ -1,0 +1,50 @@
+<div class="container-fluid" style="height: 100vh; ">
+    <div class="row" style="height: 100vh; ">
+        <div class="col-md-4" style=" margin-top: 200px;">
+            <h1 style="color: aliceblue; size: 40px;">Parlons de votre projet !</h1>
+            <p style="margin-top: 40px; color: black ; font-weight: 900; text-align: justify;">Vous cherchez un partenaire pour centraliser vos actions marketing ? Contactez-nous pour le développement de sites internet performants, campagnes publicitaires rentables ou tout autre projet marketing.</p>
+
+        </div>
+        <div class="col-md-8"  >
+            <form (ngSubmit)="contactus();" style="margin-top: 100px; height: 450px; background-color: wheat; border-radius: 10px; width: 800px; margin-left: 40px; ">
+                <div class="row ">
+                  <div class="col " style="margin-top: 10px; margin-left: 15px;">
+                    <label for="firstname">First name</label>
+                    <input [(ngModel)]="models.firstname" type="text" id="firsname" name="firstname" class="form-control" placeholder="First name" style="width: 300px;">
+                  </div>
+                  <div class="col" style="margin-top: 10px;">
+                    <label for="lastname">Last name</label>
+                    <input type="text" [(ngModel)]="models.lastname" id="lastname" name="lastname" class="form-control" placeholder="Last name" style="width: 300px;">
+                  </div>
+                </div>
+              
+                <div class="row" >
+                  <div class="col " style="margin-top: 10px; margin-left: 15px;">
+                    <label for="email">E-MAIL</label>
+                    <input type="text" [(ngModel)]="models.email" id="email" name="email" class="form-control" placeholder="E-MAIL" style="width: 300px;">
+                  </div>
+                  <div class="col" style="margin-top: 10px;">
+                    <label for="phone">PHONE</label>
+                    <input type="text" id="phone" [(ngModel)]="models.phone" name="phone" class="form-control" placeholder="PHONE" style="width: 300px;">
+                  </div>
+                </div>
+              
+              <div class="form-group " style="margin-top: 10px; margin-left: 15px;">
+                <label for="inputState">DE QUOI AVEZ-VOUS BESOIN?</label>
+                <select id="inpu" [(ngModel)]="models.inpu" name="inpu" class="form-control" style="width: 300px;">
+                  <option selected>Site internet</option>
+                  <option>Application Web </option>
+                  <option>Application Web </option>
+                  <option>Application Web </option>
+                  <option>Application Web </option>
+                  <option>Application Web </option>
+                </select>
+            </div>
+
+              <div class="form-group" style="margin-top: 10px; margin-left: 15px;">
+                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <textarea [(ngModel)]="models.textarea" class="form-control" name="textarea" id="Textarea" style="width: 770px; height: 150px;" placeholder="Decrivez-nous votre demande en quelque mots" ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary" style="margin-left: 15px; background-color: transparent; height: 35px; margin-top: 7px; color: black; size: 40px; font-weight: 400;">Envoyer</button>
+
+</form>

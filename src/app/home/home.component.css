@@ -1,0 +1,100 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+
+
+
+.custom-container-1{
+    background-image: url("/assets/nasa-Q1p7bh3SHj8-unsplash.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Ajoutez ces styles dans votre fichier de style CSS */
+.img-overlay {
+    width: 100%; /* Assurez-vous que l'image occupe la largeur complète de son conteneur */
+    height: auto; /* Ajustez la hauteur en conséquence */
+    opacity: 0.3; /* Réglez l'opacité selon vos préférences (0.0 - 1.0) */
+  }
+  
+  .h11 {
+    font-size: 5em; /* Ajustez la taille de la police selon vos préférences */
+    color: #f3eeee; /* Couleur du texte */
+    font-weight: bold; /* Police en gras */
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 10px;
+  }
+
+  .h31 {
+    font-size: 3em; /* Ajustez la taille de la police selon vos préférences */
+    color: #f3eeee; /* Couleur du texte */
+    font-weight: bold; /* Police régulière */
+     /* Hauteur de ligne pour un espacement amélioré */
+    font-family: 'Times New Roman', serif;
+  }
+
+  .btn-outline-success {
+    font-size: 1.2em; /* Ajustez la taille de la police selon vos préférences */
+    color: #fff; /* Couleur du texte */
+    border-color: #28a745; /* Couleur de la bordure */
+    background-color: #28a745; /* Couleur d'arrière-plan */
+    font-weight: bold; /* Police en gras */
+  }
+  .p1{
+    font-size: 1.5em;
+    color: #f3eeee;
+    font-family: 'Georgia', serif;
+    text-align: justify;
+  }
+  strong{
+    color: cyan;
+  }
+  .card{
+    border: white 1px solid;
+    overflow: auto;
+    background-color: transparent;
+}
+
+.custom-container-2{
+  background-color: black;
+}
+
+.h12{
+  font-size: 2em; /* Ajustez la taille de la police selon vos préférences */
+    color: red; /* Couleur du texte */
+    font-weight: bold; /* Police en gras */
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 5px;
+    margin-top: 60px;
+    margin-left: 205px;
+}
+
+.p2{
+
+  font-size: 1em; /* Ajustez la taille de la police selon vos préférences */
+    color: white; /* Couleur du texte */
+    font-weight: bold; /* Police en gras */
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 5px;
+}
+.p3{
+  color: aliceblue;
+}
+
+.selected-title {
+  background-color: blue;
+  /* Ajoutez d'autres styles si nécessaire */
+}
+
+.custom-button-style {
+ 
+  
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-container-4 {
+  background-image: url("/assets/shapelined-_JBKdviweXI-unsplash.jpg");
+}

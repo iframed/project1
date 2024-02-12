@@ -1,0 +1,15 @@
+.custom-container-1{
+    background-image: url("/assets/natalia-arkusha-z6bnt5KAY2A-unsplash.jpg")
+}
+.p22{
+    background-image: url("/assets/matthew-mcbrayer-qD9xzm7yK9U-unsplash.jpg");
+    border-radius: 15px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.col-md-4{
+    background-image: url("/assets/ernest-karchmit-ZcDjyPNLQ8w-unsplash.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    
+}
